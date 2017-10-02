@@ -1,4 +1,4 @@
-package org.tushar.webservices.soap;
+package org.tushar.webservices.controller;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+import org.tushar.webservices.entity.Country;
 import org.tushar.webservices.service.CountryService;
-import org.tushar.webservices.soap.Entity.Country;
 
 @RestController
 public class CountryController {

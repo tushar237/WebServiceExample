@@ -25,7 +25,7 @@
 		<beans:property name="dataSource" ref="dataSource" />
 		<beans:property name="annotatedClasses">
 			<beans:list>
-				<beans:value>org.tushar.webservices.soap.Entity.Country</beans:value>
+				<beans:value>org.tushar.webservices.entity.Country</beans:value>
 			</beans:list>
 		</beans:property>
 		<beans:property name="hibernateProperties">

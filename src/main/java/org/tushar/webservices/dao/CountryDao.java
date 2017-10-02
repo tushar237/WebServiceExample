@@ -6,7 +6,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import org.tushar.webservices.soap.Entity.Country;
+import org.tushar.webservices.entity.Country;
 
 @Repository
 public class CountryDao {

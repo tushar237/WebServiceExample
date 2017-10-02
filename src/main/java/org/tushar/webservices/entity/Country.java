@@ -1,4 +1,4 @@
-package org.tushar.webservices.soap.Entity;
+package org.tushar.webservices.entity;
 
 import java.io.Serializable;
 
